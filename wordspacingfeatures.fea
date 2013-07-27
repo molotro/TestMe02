@@ -27,7 +27,6 @@
 @_KERN_d_1ST=[d  dcroat];
 @_KERN_d_2ND=[d  dcaron dcroat q];
 @_KERN_e_1ST=[e  ae aeacute eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek oe uni1EC5];
-@_KERN_e_2ND=[e  eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek uni1EC5];
 @_KERN_g=[g  gbreve gcircumflex gcommaaccent gdotaccent];
 @_KERN_guilsinglleft=[guilsinglleft  guillemotleft];
 @_KERN_guilsinglright=[guilsinglright  guillemotright];
@@ -38,10 +37,10 @@
 @_KERN_k_1ST=[k  kcommaaccent];
 @_KERN_l_1ST=[l  lacute lcommaaccent lslash];
 @_KERN_l_2ND=[l  lacute lcaron lcommaaccent lslash];
-@_KERN_n_1ST=[n  h hbar hcircumflex nacute ncaron ncommaaccent ntilde];
+@_KERN_n_1ST=[n  eng h hbar hcircumflex m nacute ncaron ncommaaccent ntilde];
 @_KERN_n_2ND=[n  eng m nacute ncaron ncommaaccent ntilde p r racute rcaron rcommaaccent];
 @_KERN_o_1ST=[o  oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde uni1ED7];
-@_KERN_o_2ND=[o  oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash oslashacute otilde uni1ED7];
+@_KERN_o_2ND=[o  e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash oslashacute otilde uni1EC5 uni1ED7];
 @_KERN_period_1ST=[period  comma quotedblbase quotesinglbase];
 @_KERN_period_2ND=[period  comma ellipsis quotedblbase quotesinglbase];
 @_KERN_quoteleft=[quoteleft  quotedblleft];
@@ -65,15 +64,6 @@
 @caps=[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aringacute Aogonek AE AEacute Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Dcroat Egrave Eacute Ecircumflex Ecaron Edieresis Emacron Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Idieresis Imacron Ibreve Idotaccent Iogonek Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Lslash Nacute Ncaron Ntilde Ncommaaccent Ograve Oacute Ocircumflex Otilde Odieresis Omacron Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron Rcommaaccent Sacute Scircumflex Scaron Scedilla Scommaaccent Tcaron Tcommaaccent Tbar Ugrave Uacute Ucircumflex Utilde Udieresis Umacron Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent Eng Eth Thorn endash.cap emdash.cap periodcentered.cap parenleft.cap parenright.cap bracketleft.cap bracketright.cap braceleft.cap braceright.cap at.cap];
 languagesystem DFLT dflt;
 
-
-
-
-
-
-
-
-
-
 feature locl {
 	sub [Scedilla scedilla] by [Scommaaccent scommaaccent];
 	sub [uni021A uni021B] by [Tcommaaccent tcommaaccent];
@@ -81,18 +71,21 @@ feature locl {
 feature case {
   sub @cap_0 by @cap;
 } case;
-feature SS01 {
+feature ss01 {
   sub space by space.one;
-} SS01;
-feature SS02 {
+} ss01;
+
+feature ss02 {
   sub space by space.two;
-} SS02;
-feature SS03 {
+} ss02;
+
+feature ss03 {
   sub space by space.three;
-} SS03;
-feature SS04 {
+} ss03;
+
+feature ss04 {
   sub space by space.four;
-} SS04;
+} ss04;
 
 
 
@@ -101,4 +94,7 @@ feature SS04 {
 
 
 
-
+
+
+
+
