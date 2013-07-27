@@ -1,0 +1,104 @@
+@_KERN_A=[A  Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Aringacute Atilde uni1EB0];
+@_KERN_AE_2ND=[AE  AEacute];
+@_KERN_C_1ST=[C  Cacute Ccaron Ccedilla Ccircumflex Cdotaccent];
+@_KERN_D_1ST=[D  Dcaron Dcroat Eth];
+@_KERN_E_1ST=[E  AE AEacute Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek OE];
+@_KERN_G_1ST=[G  Gbreve Gcircumflex Gcommaaccent Gdotaccent];
+@_KERN_H_1ST=[H  Eng Hbar Hcircumflex M N Nacute Ncaron Ncommaaccent Ntilde];
+@_KERN_H_2ND=[H  B D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F Hbar Hcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde P R Racute Rcaron Rcommaaccent Thorn];
+@_KERN_I=[I  Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde];
+@_KERN_J=[J  Jcircumflex];
+@_KERN_K_1ST=[K  Kcommaaccent];
+@_KERN_L_1ST=[L  Lacute Lcaron Lcommaaccent Lslash];
+@_KERN_O_1ST=[O  Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Q];
+@_KERN_O_2ND=[O  C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G Gbreve Gcircumflex Gcommaaccent Gdotaccent OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Q];
+@_KERN_R_1ST=[R  Racute Rcaron Rcommaaccent];
+@_KERN_S=[S  Sacute Scaron Scedilla Scircumflex Scommaaccent];
+@_KERN_T=[T  Tbar Tcaron Tcommaaccent uni021A];
+@_KERN_U=[U  Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde];
+@_KERN_W=[W  Wacute Wcircumflex Wdieresis Wgrave];
+@_KERN_Y=[Y  Yacute Ycircumflex Ydieresis Ygrave uni1EF8];
+@_KERN_Z=[Z  Zacute Zcaron Zdotaccent];
+@_KERN_a_1ST=[a  aacute abreve acircumflex adieresis agrave amacron aogonek aring aringacute atilde uni1EAB];
+@_KERN_a_2ND=[a  aacute abreve acircumflex adieresis ae aeacute agrave amacron aogonek aring aringacute atilde uni1EAB];
+@_KERN_b_1ST=[b  p thorn];
+@_KERN_c=[c  cacute ccaron ccedilla ccircumflex cdotaccent];
+@_KERN_colon=[colon  semicolon];
+@_KERN_d_1ST=[d  dcroat];
+@_KERN_d_2ND=[d  dcaron dcroat q];
+@_KERN_e_1ST=[e  ae aeacute eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek oe uni1EC5];
+@_KERN_e_2ND=[e  eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek uni1EC5];
+@_KERN_g=[g  gbreve gcircumflex gcommaaccent gdotaccent];
+@_KERN_guilsinglleft=[guilsinglleft  guillemotleft];
+@_KERN_guilsinglright=[guilsinglright  guillemotright];
+@_KERN_h_2ND=[h  germandbls hbar hcircumflex k kcommaaccent thorn];
+@_KERN_hyphen=[hyphen  emdash endash];
+@_KERN_hyphen.cap=[hyphen.cap  emdash.cap endash.cap];
+@_KERN_i=[i  dotlessi iacute ibreve icircumflex idieresis igrave imacron iogonek itilde j jcircumflex];
+@_KERN_k_1ST=[k  kcommaaccent];
+@_KERN_l_1ST=[l  lacute lcommaaccent lslash];
+@_KERN_l_2ND=[l  lacute lcaron lcommaaccent lslash];
+@_KERN_n_1ST=[n  h hbar hcircumflex nacute ncaron ncommaaccent ntilde];
+@_KERN_n_2ND=[n  eng m nacute ncaron ncommaaccent ntilde p r racute rcaron rcommaaccent];
+@_KERN_o_1ST=[o  oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde uni1ED7];
+@_KERN_o_2ND=[o  oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash oslashacute otilde uni1ED7];
+@_KERN_period_1ST=[period  comma quotedblbase quotesinglbase];
+@_KERN_period_2ND=[period  comma ellipsis quotedblbase quotesinglbase];
+@_KERN_quoteleft=[quoteleft  quotedblleft];
+@_KERN_quoteright=[quoteright  quotedblright];
+@_KERN_quotesingle=[quotesingle  quotedbl];
+@_KERN_r_1ST=[r  racute rcaron rcommaaccent];
+@_KERN_s=[s  sacute scaron scedilla scircumflex scommaaccent];
+@_KERN_t_1ST=[t  tbar tcommaaccent uni021B];
+@_KERN_t_2ND=[t  tbar tcaron tcommaaccent uni021B];
+@_KERN_u_1ST=[u  q uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde];
+@_KERN_u_2ND=[u  uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde];
+@_KERN_w=[w  wacute wcircumflex wdieresis wgrave];
+@_KERN_y=[y  uni1EF9 yacute ycircumflex ydieresis ygrave];
+@_KERN_z=[z  zacute zcaron zdotaccent];
+@cap_0=[questiondown endash emdash periodcentered exclamdown parenleft parenright bracketleft bracketright braceleft braceright];
+@cap=[questiondown.cap endash.cap emdash.cap periodcentered.cap exclamdown.cap parenleft.cap parenright.cap bracketleft.cap bracketright.cap braceleft.cap braceright.cap];
+@frac1=[zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];
+@frac2=[slash fraction perthousand onehalf onequarter threequarters threequarters zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];
+@frac3=[zero one two three four five six seven eight nine zero.pnum one.pnum two.pnum three.pnum four.pnum five.pnum six.pnum seven.pnum eight.pnum nine.pnum zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];
+@frac4=[zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ];
+@caps=[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Amacron Abreve Aring Aringacute Aogonek AE AEacute Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Dcroat Egrave Eacute Ecircumflex Ecaron Edieresis Emacron Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Idieresis Imacron Ibreve Idotaccent Iogonek Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Lslash Nacute Ncaron Ntilde Ncommaaccent Ograve Oacute Ocircumflex Otilde Odieresis Omacron Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron Rcommaaccent Sacute Scircumflex Scaron Scedilla Scommaaccent Tcaron Tcommaaccent Tbar Ugrave Uacute Ucircumflex Utilde Udieresis Umacron Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent Eng Eth Thorn endash.cap emdash.cap periodcentered.cap parenleft.cap parenright.cap bracketleft.cap bracketright.cap braceleft.cap braceright.cap at.cap];
+languagesystem DFLT dflt;
+
+
+
+
+
+
+
+
+
+
+feature locl {
+	sub [Scedilla scedilla] by [Scommaaccent scommaaccent];
+	sub [uni021A uni021B] by [Tcommaaccent tcommaaccent];
+} locl;
+feature case {
+  sub @cap_0 by @cap;
+} case;
+feature SS01 {
+  sub space by space.one;
+} SS01;
+feature SS02 {
+  sub space by space.two;
+} SS02;
+feature SS03 {
+  sub space by space.three;
+} SS03;
+feature SS04 {
+  sub space by space.four;
+} SS04;
+
+
+
+
+
+
+
+
+
